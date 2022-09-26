@@ -36,8 +36,6 @@ You can find solutions in subfolders ./src
 
 **5. Passing Data to Parent Component**
 
-You can find solutions in subfolders ./src 
-
 
 
 
