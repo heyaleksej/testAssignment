@@ -1,46 +1,43 @@
-# Getting Started with Create React App
+# React Test Assignment 
+You can find solutions in subfolders ./src
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<img height="40px" src="https://revelry.co/wp-content/uploads/2019/05/react-native-UX-design.gif">
 
-## Available Scripts
+**General Requirements**
+- For implementation use TypeScript and provide all necessary data typings.
+- For assignments assume that the latest version of React is used.
+- Provide solution as `zip` archive with separate files for each assignment or as link to
+  GitHub repository with these files uploaded.
 
-In the project directory, you can run:
 
-### `yarn start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+**1. HTTP Request Handling**
+   Write down code snippet using following requirements:
+- Use only vanilla TypeScript, without additional libraries.
+- Use REST Rick and Morty API for this assignment.
+- Request all episodes using API.
+- Replace URLs in “characters” array with character JSON objects taken from
+  API.
+- Log final array into console.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+**2. Counter Function**
+   Implement the `counter` function according to requirements:
+- Function accepts a number as the first argument. This number represents the
+  initial value for the counter.
+- If no value passed to a function, use `0` as initial value.
+- Function returns array with two function:
+- First function allows us to get the current counter value.
+- Second function increases the internal counter value by one.
+- Multiple calls of `counter` function create independent instances of counter
 
-### `yarn test`
+**3. Key Prop**
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+**4. Props Drilling**
 
-### `yarn build`
+**5. Passing Data to Parent Component**
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+You can find solutions in subfolders ./src 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `yarn eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
