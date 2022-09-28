@@ -50,9 +50,9 @@ export const replaceCharactersLinks = async () => {
     const arrayOfIds = await createArrayOfIds()
     const characters = await fetchData<CharacterType[]>(`${BaseURL}character/${arrayOfIds}`)  //Get all multiple characters
     const getId = (url: string) => {
-        const matched = url.match(/\d+/g)
-        return  matched ? matched[0] : ''
-
+        const data = url.split('/').at(-1)
+        const result = typeof(data) != "undefined" ?  data :  ''
+        return result
     }
 
     const finalArray = episodes.map((e) => {
